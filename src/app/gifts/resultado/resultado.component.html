@@ -1,0 +1,20 @@
+<div class="row">
+    <div 
+        *ngFor="let cosa of resultados"
+        class="col-md-4 col-sm-6 animate__animated animate__bounce animate_faster">
+
+        <div class="card">
+            <img [src]="cosa.images.downsized_medium.url"
+                 [alt]=""
+                 class="card-img-top">
+            <div class="card-body">
+                
+                <p class="card-text">
+                    <!--{{cosa.}}-->
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
